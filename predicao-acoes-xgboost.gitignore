@@ -1,0 +1,12 @@
+# Arquivos e pastas gerados pelo Python
+__pycache__/
+*.pyc
+
+# Ambiente virtual
+venv/
+
+# Pastas de dados
+data/
+
+# Arquivos do sistema (ex: macOS)
+.DS_Store
