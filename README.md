@@ -69,4 +69,4 @@ Os resultados apresentados são específicos para a ação `PETR4.SA`. Embora o 
 * `xgboost`
 * `matplotlib`
 
-**Autor:** [Otávio (seu nome)](https://github.com/otaviozdc)
+**Autor:** [Otávio Zucchetti Dalla Costa](https://github.com/otaviozdc)
