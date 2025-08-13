@@ -1,19 +1,6 @@
 import pandas as pd
 
 def calcular_features_tecnicas(dados: pd.DataFrame) -> pd.DataFrame:
-    """
-    Calcula os indicadores técnicos e adiciona-os como features a um DataFrame.
-
-    Parâmetros:
-    ----------
-    dados : pd.DataFrame
-        DataFrame contendo os dados históricos da ação, com a coluna 'Close'.
-
-    Retorna:
-    -------
-    pd.DataFrame
-        DataFrame original com as novas colunas de features adicionadas.
-    """
     # Médias Móveis
     dados["MA_20"] = dados["Close"].rolling(window=20).mean()
     dados["MA_50"] = dados["Close"].rolling(window=50).mean()
